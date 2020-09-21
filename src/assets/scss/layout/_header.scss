@@ -41,7 +41,6 @@
     @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
     position: relative;
     margin-top: 3.5rem;
-
     &:before {
       content: '';
       display: block;
@@ -63,12 +62,15 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 13.75rem;
+    height: 13.75rem;
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
-
+    padding-top: .8rem; 
+    .va-logo{
+      opacity: .666;
+    }
     .icon {
       &:before {
         font-size: 2rem;

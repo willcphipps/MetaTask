@@ -1,10 +1,12 @@
-import PropTypes from 'prop-types'
-import React from 'react'
+import PropTypes from 'prop-types';
+import React from 'react';
+import logo from '../images/vaLogo.png';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+        <img  className="va-logo" src={logo} height="200px" width="200px"></img>
+      
     </div>
     <div className="content">
       <div className="inner">

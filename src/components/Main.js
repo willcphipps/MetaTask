@@ -55,6 +55,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -85,12 +86,22 @@ class Main extends React.Component {
         </article>
 
         <article
+          
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
+          <div className="img-wrapper">
+
+          
+           
+           
+           
+           
+           
+           
           <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic03} alt="" />
@@ -104,7 +115,8 @@ class Main extends React.Component {
             Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
             amet.
           </p>
-          {close}
+            {close}
+          </div>
         </article>
 
         <article

@@ -28,10 +28,13 @@
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: transparentize(_palette(bg), 0.15);
+			opacity:0.25;
 			border-radius: _size(border-radius);
-			opacity: 0;
 
+
+			// .img-wrapper{
+			// 	background-image: url("../../images/blurred.png");
+			// }
 			&.timeout {
 				display: none;
 			}
@@ -81,7 +84,7 @@
 
 				&:active {
 					&:before {
-						background-color: _palette(border-bg-alt);
+						background-image: _palette(border-bg-alt);
 					}
 				}
 			}
