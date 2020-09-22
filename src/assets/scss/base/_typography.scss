@@ -21,10 +21,22 @@
 			font-size: 10pt;
 		}
 	}
+	@font-face{
+		src: url("../fonts/lemon.ttf");
+		font-family: 'lemon';
+		}
+	@font-face{
+		src: url("../fonts/Olga.ttf");
+		font-family: 'olga';
+		}
+	@font-face{
+		src: url("../fonts/zekton.ttf");
+		font-family: 'zek';
+		}
 
 	body, input, select, textarea {
 		color: _palette(fg);
-		font-family: _font(family);
+		font-family: 'zek';
 		font-weight: _font(light);
 		font-size: 1rem;
 		line-height: 1.65;

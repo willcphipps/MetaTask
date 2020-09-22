@@ -28,13 +28,11 @@
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			opacity:0.25;
 			border-radius: _size(border-radius);
+			background-image: url("../../images/blurred.png");
+			background-size: cover;
+			background-position: center;
 
-
-			// .img-wrapper{
-			// 	background-image: url("../../images/blurred.png");
-			// }
 			&.timeout {
 				display: none;
 			}
