@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import logo from '../images/vaLogo.png';
+import logo from '../images/DataLrdzAlpha.png';
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -10,7 +10,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>VITURAL ADEPTS</h1>
+        <h1>TELIKOS</h1>
         <p>
           Ontological Analysis and Design of General Systems within Decentralized A.M.M Crypto-Architectures: D.A.O{' '}
         </p>
