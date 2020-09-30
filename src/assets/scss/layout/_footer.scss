@@ -6,6 +6,7 @@
 
 /* Footer */
 
+
 #footer {
   @include vendor(
     'transition',
@@ -15,6 +16,7 @@
       'opacity #{_duration(article)} ease-in-out'
     )
   );
+  
   width: 100%;
   max-width: 100%;
   margin-top: 2rem;
@@ -24,8 +26,8 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-
     .hexagon-wrapper {
+       text-decoration: none;
       margin: auto;
       display: flex;
       text-align: initial;
@@ -51,6 +53,7 @@
           z-index: 2;
         }
       }
+        
         .hexagon i {
           z-index: 1;
           margin: auto;
